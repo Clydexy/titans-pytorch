@@ -60,6 +60,10 @@ loss.backward()
 sampled = transformer.sample(token_ids[:, :4], 512)
 ```
 
+## API reference
+
+See [docs/API_REFERENCE.md](docs/API_REFERENCE.md) for a tour of the available modules, their key arguments, and examples of how to assemble them into a simple network.
+
 ## Experiments
 
 ```bash
